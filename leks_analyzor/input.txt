@@ -1,0 +1,4 @@
+type alpha = int ; a1 = record b2 : int end ; ab12 = int
+alpha = int ; a1 = record b2 : int end
+type ab12 = int ; alpha : int
+type aa = int ; a = record b2 : int

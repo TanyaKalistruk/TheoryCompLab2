@@ -1,0 +1,60 @@
+Line number 1
+The string is:
+type alpha = int ; a1 = record b2 : int end ; ab12 = int
+
+<type, KeyWordType>
+<alpha, IdAlpha>
+<=, SignEqual>
+<int, KeyWordInt>
+<;, SignSemicolon>
+<a1 , IdAlphabetAB12>
+<=, SignEqual>
+<record, KeyWordRecord>
+<b2 , IdAlphabetAB12>
+<:, SignColon>
+<int, KeyWordInt>
+<end, KeyWordEnd>
+<;, SignSemicolon>
+<ab12 , IdAlphabetAB12>
+<=, SignEqual>
+<int, KeyWordInt>
+
+
+Line number 2
+The string is:
+alpha = int ; a1 = record b2 : int end
+
+Error in line 2, position 0, message: The key word 'type' should be on the beginning of string
+
+
+Line number 3
+The string is:
+type ab12 = int ; alpha : int
+
+<type, KeyWordType>
+<ab12 , IdAlphabetAB12>
+<=, SignEqual>
+<int, KeyWordInt>
+<;, SignSemicolon>
+<alpha, IdAlpha>
+Error in line 3, position 24, message: There should be an '=' sing
+
+
+Line number 4
+The string is:
+type aa = int ; a = record b2 : int
+
+<type, KeyWordType>
+<aa , IdAlphabetAB12>
+<=, SignEqual>
+<int, KeyWordInt>
+<;, SignSemicolon>
+<a , IdAlphabetAB12>
+<=, SignEqual>
+<record, KeyWordRecord>
+<b2 , IdAlphabetAB12>
+<:, SignColon>
+<int, KeyWordInt>
+Error in line 4, position 34, message: There should be a key word 'end'
+
+
