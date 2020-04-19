@@ -1,4 +1,3 @@
-
 Line number 1
 The string is:
 type alpha = int ; a1 = record b2 : int end ; ab12 = int
@@ -19,7 +18,6 @@ type alpha = int ; a1 = record b2 : int end ; ab12 = int
 <ab12, IdAlphabetAB12>
 <=, SignEqual>
 <int, KeyWordInt>
-
 Line number 2
 The string is:
 alpha = int ; af = record b2 : int end
@@ -32,14 +30,12 @@ alpha = int ; af = record b2 : int end
 Error in line 2, position 15, message: Unknown symbol f
 
 
-
 Line number 3
 The string is:
 type 12 = int ; alpha : int
 
 <type, KeyWordType>
 Error in line 3, position 5, message: Unknown symbol 1
-
 
 
 Line number 4

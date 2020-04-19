@@ -184,6 +184,6 @@ if __name__ == '__main__':
     for line in lines:
         line_without_eof = line.split('\n')[0]
         analyzer = LeksAnaliz(line=line_num, string=line_without_eof)
-        analyzer.write_to_file("", "Line number %i" % analyzer.line, "The string is:", analyzer.string, "")
+        analyzer.write_to_file("Line number %i" % analyzer.line, "The string is:", analyzer.string, "")
         analyzer.get_token()
         line_num += 1
