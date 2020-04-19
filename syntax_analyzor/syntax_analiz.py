@@ -11,7 +11,7 @@ id_alpha = 'IdAlpha'
 id_alphabet_ab12 = 'IdAlphabetAB12'
 
 
-class LeksAnaliz:
+class SyntaxAnaliz:
 
     def __init__(self, line: int, string: str):
         self.string = string
@@ -226,6 +226,6 @@ if __name__ == '__main__':
     os.remove("output.txt")
     for line in lines:
         line_without_eof = line.split('\n')[0]
-        analyzer = LeksAnaliz(line=line_num, string=line_without_eof)
+        analyzer = SyntaxAnaliz(line=line_num, string=line_without_eof)
         analyzer.analyze_string()
         line_num += 1
