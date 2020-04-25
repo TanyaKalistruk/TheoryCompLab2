@@ -1,0 +1,28 @@
+
+Line number 1
+The string is:
+12323 recallmyword cancancel
+<FourSingNumber123, 1232>
+<KeyWordCall, call>
+<KeyWordCancel, cancel>
+
+Line number 2
+The string is:
+13212312546 c2322 ccalll
+<FourSingNumber123, 1321>
+<FourSingNumber123, 2312>
+<FourSingNumber123, 2322>
+<KeyWordCall, call>
+
+Line number 3
+The string is:
+"call" ca
+<KeyWordCall, call>
+
+Line number 4
+The string is:
+callcancel3212eln1231
+<KeyWordCall, call>
+<KeyWordCancel, cancel>
+<FourSingNumber123, 3212>
+<FourSingNumber123, 1231>
